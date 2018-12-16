@@ -2,6 +2,18 @@
 application java-swing permet de la gestion des élèves et le filières
 
 
+
+
+## Table filiere
+```SQL
+create table filiere(
+	idf int primary key,
+	code varchar(25),
+	libelle varchar(25)
+)
+```
+
+
 ## Table Etudiant
 ```SQL
 create table etudiant(
@@ -14,11 +26,4 @@ create table etudiant(
 )
 ```
 
-## Table filiere
-```SQL
-create table filiere(
-	idf int primary key,
-	code varchar(25),
-	libelle varchar(25)
-)
-```
+
