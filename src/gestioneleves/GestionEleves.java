@@ -5,6 +5,7 @@
  */
 package gestioneleves;
 
+import MODEL.Etudiant;
 /**
  *
  * @author dell
@@ -15,7 +16,8 @@ public class GestionEleves {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Etudiant Et = new Etudiant();
+        Et.ALL_Student();
     }
     
 }
