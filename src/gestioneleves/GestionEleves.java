@@ -6,6 +6,7 @@
 package gestioneleves;
 
 import MODEL.Etudiant;
+import java.sql.SQLException;
 /**
  *
  * @author dell
@@ -14,10 +15,13 @@ public class GestionEleves {
 
     /**
      * @param args the command line arguments
+     * @throws java.sql.SQLException
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
         Etudiant Et = new Etudiant();
+        //Et.Create("GINF2", "Belal", "Nafar", 22);
         Et.ALL_Student();
+        
     }
     
 }
